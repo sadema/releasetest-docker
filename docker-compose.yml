@@ -1,9 +1,0 @@
-version: "2"
-
-services:
-
-  releasetest:
-    build: ./releasetest
-    container_name: releasetest
-    ports:
-      - "48080:8080"
